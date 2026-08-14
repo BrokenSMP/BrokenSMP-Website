@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#d71920" />
+  <meta name="description" content="Broken SMP — live player profiles, ranked PvP, duels, advancements, Coins and more." />
+  <title>Broken SMP</title>
+  <link rel="preconnect" href="https://mc-heads.net">
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <div class="utility">
+    <div class="utility-inner">
+      <button class="server-pill" onclick="copyJavaAddress()">
+        <span class="pulse"></span>
+        <span><b id="utilityOnline">LIVE</b><small>Click to copy Java IP</small></span>
+      </button>
+      <div class="utility-brand">BROKEN <b>SMP</b></div>
+      <a class="utility-link" href="#store">🪙 STORE</a>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">B</span>
+      <span><b>BROKEN</b><small>SMP</small></span>
+    </a>
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#players">Players</a>
+      <a href="#ranked">Ranked</a>
+      <a href="#duels">Duels</a>
+      <a href="#achievements">Advancements</a>
+      <a href="#rules">Rules</a>
+      <a href="#staff">Staff</a>
+      <a class="nav-store" href="#store">Store</a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>
+    <div>
+      <b>BROKEN SMP</b>
+      <span>Competitive Survival · Java + Bedrock</span>
+    </div>
+    <div class="footer-addresses">
+      <span>Java: brokensmp.duckdns.org:25612</span>
+      <span>Bedrock: brokensmp.duckdns.org · Port 8118</span>
+    </div>
+  </footer>
+
+  <script src="./assets/config.js"></script>
+  <script src="./assets/data.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
